@@ -34,7 +34,7 @@ log-level: info
 # Clash 的 RESTful API
 external-controller: '127.0.0.1:9090'
 
-# 纯ping连接延迟:
+# 连接延时测试模式:true(纯ping)/false(真延时)
 unified-delay: true
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
